@@ -17,7 +17,9 @@
 		493BC9E218045CE8005A7F34 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 493BC9E118045CE8005A7F34 /* Default@2x.png */; };
 		493BC9E418045CE8005A7F34 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 493BC9E318045CE8005A7F34 /* Default-568h@2x.png */; };
 		493BC9E718045CE8005A7F34 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 493BC9E518045CE8005A7F34 /* MainStoryboard.storyboard */; };
-		493BC9EA18045CE8005A7F34 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 493BC9E918045CE8005A7F34 /* ViewController.m */; };
+		493BC9F218045D7E005A7F34 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 493BC9F118045D7E005A7F34 /* ViewController.m */; };
+		493BC9F518045D9C005A7F34 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 493BC9F418045D9C005A7F34 /* DetailViewController.m */; };
+		498B3AD0180506B9003208A6 /* SentenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 498B3ACF180506B9003208A6 /* SentenceViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,8 +37,12 @@
 		493BC9E118045CE8005A7F34 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		493BC9E318045CE8005A7F34 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		493BC9E618045CE8005A7F34 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		493BC9E818045CE8005A7F34 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		493BC9E918045CE8005A7F34 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		493BC9F018045D7E005A7F34 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		493BC9F118045D7E005A7F34 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		493BC9F318045D9C005A7F34 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		493BC9F418045D9C005A7F34 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		498B3ACE180506B9003208A6 /* SentenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SentenceViewController.h; sourceTree = "<group>"; };
+		498B3ACF180506B9003208A6 /* SentenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SentenceViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +89,15 @@
 		493BC9D318045CE8005A7F34 /* Voice */ = {
 			isa = PBXGroup;
 			children = (
+				498B3ACE180506B9003208A6 /* SentenceViewController.h */,
+				498B3ACF180506B9003208A6 /* SentenceViewController.m */,
 				493BC9DC18045CE8005A7F34 /* AppDelegate.h */,
 				493BC9DD18045CE8005A7F34 /* AppDelegate.m */,
 				493BC9E518045CE8005A7F34 /* MainStoryboard.storyboard */,
-				493BC9E818045CE8005A7F34 /* ViewController.h */,
-				493BC9E918045CE8005A7F34 /* ViewController.m */,
+				493BC9F018045D7E005A7F34 /* ViewController.h */,
+				493BC9F118045D7E005A7F34 /* ViewController.m */,
+				493BC9F318045D9C005A7F34 /* DetailViewController.h */,
+				493BC9F418045D9C005A7F34 /* DetailViewController.m */,
 				493BC9D418045CE8005A7F34 /* Supporting Files */,
 			);
 			path = Voice;
@@ -175,7 +185,9 @@
 			files = (
 				493BC9DA18045CE8005A7F34 /* main.m in Sources */,
 				493BC9DE18045CE8005A7F34 /* AppDelegate.m in Sources */,
-				493BC9EA18045CE8005A7F34 /* ViewController.m in Sources */,
+				493BC9F218045D7E005A7F34 /* ViewController.m in Sources */,
+				493BC9F518045D9C005A7F34 /* DetailViewController.m in Sources */,
+				498B3AD0180506B9003208A6 /* SentenceViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +310,7 @@
 				493BC9EF18045CE8005A7F34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

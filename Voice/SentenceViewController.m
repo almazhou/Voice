@@ -1,20 +1,18 @@
 //
-//  ViewController.m
+//  SentenceViewController.m
 //  Voice
 //
-//  Created by xzhou on 10/8/13.
+//  Created by xzhou on 10/9/13.
 //  Copyright (c) 2013 xzhou. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "SentenceViewController.h"
 
-
-
-@interface ViewController ()
+@interface SentenceViewController ()
 
 @end
 
-@implementation ViewController
+@implementation SentenceViewController
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -46,31 +44,24 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-
+#warning Potentially incomplete method implementation.
     // Return the number of sections.
-    return 2;
+    return 0;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-
+#warning Incomplete method implementation.
     // Return the number of rows in the section.
-    return 1;
+    return 0;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString *CellIdentifier = @"Cell";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-    if (cell == nil) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
-    }
-    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
-    if(indexPath.section ==0){
-    cell.textLabel.text = @"常用语句";
-    }else if(indexPath.section ==1){
-    cell.textLabel.text = @"聊天";
-    }
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
+    
+    // Configure the cell...
     
     return cell;
 }
@@ -118,13 +109,6 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell *cell = [self tableView:tableView cellForRowAtIndexPath:indexPath];
-    if (indexPath.section==0) {
-        [self performSegueWithIdentifier:@"sentenceViewControllerSegue" sender:self];
-    }else if(indexPath.section == 1){
-        [self performSegueWithIdentifier:@"detailViewControllerSegue" sender:self];
-    }
-    
     // Navigation logic may go here. Create and push another view controller.
     /*
      <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
@@ -132,14 +116,6 @@
      // Pass the selected object to the new view controller.
      [self.navigationController pushViewController:detailViewController animated:YES];
      */
-}
-
--(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
-    if([[segue identifier] isEqualToString:@"detailViewControllerSegue"]){
-        DetailViewController *dest0 = [segue destinationViewController];
-    } else if([[segue identifier] isEqualToString:@"sentenceViewControllerSegue"]){
-        SentenceViewController *dest1 = [segue destinationViewController];
-    }
 }
 
 @end
