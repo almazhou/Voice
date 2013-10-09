@@ -8,8 +8,21 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@class NSManagedObjectContext;
+@class NSManagedObjectModel;
+@class NSPersistentStoreCoordinator;
 
-@property (strong, nonatomic) UIWindow *window;
+@interface AppDelegate : UIResponder <UIApplicationDelegate> {
+    NSManagedObjectContext *_managedObjectContext;
+    NSManagedObjectModel *_managedObjectModel;
+    NSPersistentStoreCoordinator *_persistentStoreCoordinator;
+}
+@property(strong, nonatomic) UIWindow *window;
+
+- (void)saveContext;
+
+- (NSManagedObjectContext *)managedObjectContext;
+
+- (NSURL *)applicationDocumentsDirectory;
 
 @end

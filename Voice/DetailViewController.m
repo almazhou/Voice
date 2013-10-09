@@ -6,7 +6,9 @@
 //  Copyright (c) 2013 xzhou. All rights reserved.
 //
 
+#import <CoreData/CoreData.h>
 #import "DetailViewController.h"
+#import "AppDelegate.h"
 
 @interface DetailViewController ()
 
@@ -33,6 +35,27 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)onLogin:(id) sender
+{
+    AppDelegate *appDelegate =
+            [[UIApplication sharedApplication] delegate];
+
+    NSManagedObjectContext *context =
+            [appDelegate managedObjectContext];
+    NSManagedObject *newContact;
+    newContact = [NSEntityDescription
+            insertNewObjectForEntityForName:@"Sentences"
+                     inManagedObjectContext:context];
+    [newContact setValue:@"ddddd" forKey:@"name"];
+    [newContact setValue:self._textView.text forKey:@"content"];
+
+    self._textView.text = @"";
+}
+- (void)finishWriting
+{
+[self._textView resignFirstResponder];
 }
 
 @end

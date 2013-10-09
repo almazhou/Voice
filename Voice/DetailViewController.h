@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DetailViewController : UIViewController
+@interface DetailViewController : UIViewController<UITextViewDelegate>
 
+@property(nonatomic, strong) IBOutlet UITextView *_textView;
+-(IBAction)onLogin:(id) sender;
+- (IBAction)finishWriting;
 @end

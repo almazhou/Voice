@@ -2,27 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e414703-84f4-4def-90a9-b67766dcc2f0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voice/DetailViewController.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voice/DetailViewController.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voice/SentenceViewController.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voice/SentenceViewController.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/Voice.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/xcode.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voice/ContentViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voice/ContentViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voice/Voice.xcdatamodeld/Voice.xcdatamodel/contents" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Voice.xcodeproj/project.xcworkspace/xcuserdata/twer.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/Voice.xcodeproj/project.xcworkspace/xcuserdata/twer.xcuserdatad/UserInterfaceState.xcuserstate" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Voice/AppDelegate.h" afterPath="$PROJECT_DIR$/Voice/AppDelegate.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Voice/AppDelegate.m" afterPath="$PROJECT_DIR$/Voice/AppDelegate.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Voice/DetailViewController.h" afterPath="$PROJECT_DIR$/Voice/DetailViewController.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Voice/DetailViewController.m" afterPath="$PROJECT_DIR$/Voice/DetailViewController.m" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Voice/en.lproj/MainStoryboard.storyboard" afterPath="$PROJECT_DIR$/Voice/en.lproj/MainStoryboard.storyboard" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Voice/ViewController.h" afterPath="$PROJECT_DIR$/Voice/ViewController.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Voice/SentenceViewController.h" afterPath="$PROJECT_DIR$/Voice/SentenceViewController.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Voice/SentenceViewController.m" afterPath="$PROJECT_DIR$/Voice/SentenceViewController.m" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Voice/ViewController.m" afterPath="$PROJECT_DIR$/Voice/ViewController.m" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Voice.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/Voice.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Voice.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="9e414703-84f4-4def-90a9-b67766dcc2f0" time="1381289171375" ignored="false" />
-    <file path="/ViewController.m" changelist="9e414703-84f4-4def-90a9-b67766dcc2f0" time="1381289983138" ignored="false" />
+    <file path="/Dummy.txt" changelist="9e414703-84f4-4def-90a9-b67766dcc2f0" time="1381325869479" ignored="false" />
+    <file path="/ViewController.m" changelist="9e414703-84f4-4def-90a9-b67766dcc2f0" time="1381308236051" ignored="false" />
     <file path="/ViewController.h" changelist="9e414703-84f4-4def-90a9-b67766dcc2f0" time="1381289262545" ignored="false" />
+    <file path="/SentenceViewController.h" changelist="9e414703-84f4-4def-90a9-b67766dcc2f0" time="1381290492649" ignored="false" />
+    <file path="/SentenceViewController.m" changelist="9e414703-84f4-4def-90a9-b67766dcc2f0" time="1381328990529" ignored="false" />
+    <file path="/a.dummy" changelist="9e414703-84f4-4def-90a9-b67766dcc2f0" time="1381330053009" ignored="false" />
+    <file path="/AppDelegate.h" changelist="9e414703-84f4-4def-90a9-b67766dcc2f0" time="1381295284876" ignored="false" />
+    <file path="/AppDelegate.m" changelist="9e414703-84f4-4def-90a9-b67766dcc2f0" time="1381295326036" ignored="false" />
+    <file path="/DetailViewController.h" changelist="9e414703-84f4-4def-90a9-b67766dcc2f0" time="1381307667163" ignored="false" />
+    <file path="/DetailViewController.m" changelist="9e414703-84f4-4def-90a9-b67766dcc2f0" time="1381307639915" ignored="false" />
+    <file path="/ContentViewViewController.h" changelist="9e414703-84f4-4def-90a9-b67766dcc2f0" time="1381329779310" ignored="false" />
+    <file path="/ContentViewController.h" changelist="9e414703-84f4-4def-90a9-b67766dcc2f0" time="1381329536165" ignored="false" />
+    <file path="/ContentViewController.m" changelist="9e414703-84f4-4def-90a9-b67766dcc2f0" time="1381329622193" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,21 +51,93 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ViewController.h" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Voice/ViewController.h">
+      <file leaf-file-name="ViewController.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Voice/ViewController.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="32" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0">
+            <state line="139" column="72" selection-start="4041" selection-end="4257" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContentViewController.h" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Voice/ContentViewController.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="0" selection-start="326" selection-end="326" vertical-scroll-proportion="0.31437126">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContentViewController.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Voice/ContentViewController.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="22" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SentenceViewController.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Voice/SentenceViewController.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="134" column="24" selection-start="4383" selection-end="4383" vertical-scroll-proportion="-9.454545">
               <folding>
-                <element signature="e#125#148#0" expanded="true" />
+                <element signature="e#133#162#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ViewController.m" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Voice/ViewController.m">
+      <file leaf-file-name="AppDelegate.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Voice/AppDelegate.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="127" column="45" selection-start="3644" selection-end="3644" vertical-scroll-proportion="0.6013289">
+            <state line="58" column="5" selection-start="2682" selection-end="2682" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppDelegate.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Voice/AppDelegate.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="1" selection-start="470" selection-end="470" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DetailViewController.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Voice/DetailViewController.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="48" column="55" selection-start="1091" selection-end="1091" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DetailViewController.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Voice/DetailViewController.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="0" selection-start="353" selection-end="353" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SentenceViewController.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Voice/SentenceViewController.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="23" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ViewController.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Voice/ViewController.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="20" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -80,9 +161,18 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Voice/SentenceViewController.h" />
         <option value="$PROJECT_DIR$/Voice/ViewController.h" />
+        <option value="$PROJECT_DIR$/Voice/SentenceViewController.h" />
+        <option value="$PROJECT_DIR$/Voice/AppDelegate.m" />
+        <option value="$PROJECT_DIR$/Voice/AppDelegate.h" />
+        <option value="$PROJECT_DIR$/Voice/DetailViewController.h" />
+        <option value="$PROJECT_DIR$/Voice/DetailViewController.m" />
         <option value="$PROJECT_DIR$/Voice/ViewController.m" />
+        <option value="$PROJECT_DIR$/Voice/ContentViewViewController.m" />
+        <option value="$PROJECT_DIR$/Voice/ContentViewViewController.h" />
+        <option value="$PROJECT_DIR$/Voice/SentenceViewController.m" />
+        <option value="$PROJECT_DIR$/Voice/ContentViewController.m" />
+        <option value="$PROJECT_DIR$/Voice/ContentViewController.h" />
       </list>
     </option>
   </component>
@@ -121,6 +211,16 @@
       <pane id="DirectoryView.Xcode" />
       <pane id="ProjectPane">
         <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Voice" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" />
@@ -169,6 +269,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="recentsLimit" value="5" />
+    <property name="FullScreen" value="false" />
     <property name="OBJC.PRESERVED_TARGET_SELECTION" value="Voice" />
   </component>
   <component name="RunManager" selected="Application.Voice">
@@ -197,22 +298,22 @@
     <frame x="10" y="22" width="1420" height="790" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24982105" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -273,21 +374,123 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="4" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Voice/AppDelegate.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="1" selection-start="470" selection-end="470" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Voice/DetailViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="55" selection-start="1091" selection-end="1091" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Voice/DetailViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="34" selection-start="353" selection-end="353" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Voice/SentenceViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="23" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Voice/SentenceViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="0" selection-start="1607" selection-end="1607" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#133#162#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Voice/ViewController.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="32" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0">
+        <state line="11" column="20" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Voice/SentenceViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="23" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Voice/ViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="20" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Voice/AppDelegate.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="5" selection-start="2682" selection-end="2682" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Voice/AppDelegate.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="1" selection-start="470" selection-end="470" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Voice/DetailViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="353" selection-end="353" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Voice/DetailViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="55" selection-start="1091" selection-end="1091" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Voice/SentenceViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="134" column="24" selection-start="4383" selection-end="4383" vertical-scroll-proportion="-9.454545">
           <folding>
-            <element signature="e#125#148#0" expanded="true" />
+            <element signature="e#133#162#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Voice/ViewController.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="127" column="45" selection-start="3644" selection-end="3644" vertical-scroll-proportion="0.6013289">
+        <state line="139" column="72" selection-start="4041" selection-end="4257" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Voice/ContentViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="22" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Voice/ContentViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="326" selection-end="326" vertical-scroll-proportion="0.31437126">
           <folding />
         </state>
       </provider>

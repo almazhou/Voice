@@ -6,8 +6,9 @@
 //  Copyright (c) 2013 xzhou. All rights reserved.
 //
 
+#import <CoreData/CoreData.h>
 #import "ViewController.h"
-
+#import "AppDelegate.h"
 
 
 @interface ViewController ()
@@ -139,6 +140,28 @@
         DetailViewController *dest0 = [segue destinationViewController];
     } else if([[segue identifier] isEqualToString:@"sentenceViewControllerSegue"]){
         SentenceViewController *dest1 = [segue destinationViewController];
+
+        AppDelegate *appDelegate =[[UIApplication sharedApplication] delegate];
+        NSManagedObjectContext *context =[appDelegate managedObjectContext];
+        NSEntityDescription *entityDesc =[NSEntityDescription entityForName:@"Sentences" inManagedObjectContext:context];
+        NSFetchRequest *request = [[NSFetchRequest alloc] init];
+        [request setEntity:entityDesc];
+
+        NSError *error1 = nil;
+        NSMutableArray *muArray;
+        NSArray *totalObjects = [context executeFetchRequest:request error:&error1];
+        if (totalObjects == nil) {
+            NSLog(@"Sorry,no objects found");
+        }
+        else {
+            int length = [totalObjects count];
+            muArray = [NSMutableArray arrayWithCapacity:length];
+            for(int i =0;i<[totalObjects count];i++) {
+                [muArray addObject:[[totalObjects objectAtIndex:i] valueForKey:@"name"]];
+            }
+        }
+
+        dest1._items =muArray;
     }
 }
 

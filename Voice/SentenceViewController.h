@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SentenceViewController : UITableViewController
+@interface SentenceViewController : UITableViewController {
 
+}
+@property (strong, nonatomic)NSMutableArray *_items;
 @end

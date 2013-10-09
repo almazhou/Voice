@@ -20,6 +20,10 @@
 		493BC9F218045D7E005A7F34 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 493BC9F118045D7E005A7F34 /* ViewController.m */; };
 		493BC9F518045D9C005A7F34 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 493BC9F418045D9C005A7F34 /* DetailViewController.m */; };
 		498B3AD0180506B9003208A6 /* SentenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 498B3ACF180506B9003208A6 /* SentenceViewController.m */; };
+		498B3AD31805188B003208A6 /* Voice.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 498B3AD11805188B003208A6 /* Voice.xcdatamodeld */; };
+		498B3AD51805196B003208A6 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 498B3AD41805196B003208A6 /* CoreData.framework */; };
+		498B3AD9180519B0003208A6 /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 498B3AD8180519B0003208A6 /* iflyMSC.framework */; };
+		49B38C5918059E08005F8E73 /* ContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B38C5818059E08005F8E73 /* ContentViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +47,12 @@
 		493BC9F418045D9C005A7F34 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		498B3ACE180506B9003208A6 /* SentenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SentenceViewController.h; sourceTree = "<group>"; };
 		498B3ACF180506B9003208A6 /* SentenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SentenceViewController.m; sourceTree = "<group>"; };
+		498B3AD21805188B003208A6 /* Voice.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Voice.xcdatamodel; sourceTree = "<group>"; };
+		498B3AD41805196B003208A6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		498B3AD618051993003208A6 /* iflyMSC */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = iflyMSC; path = ../../Downloads/iphone_ui_1.042_523e8a23/lib/iflyMSC.framework/iflyMSC; sourceTree = "<group>"; };
+		498B3AD8180519B0003208A6 /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iflyMSC.framework; path = ../../Downloads/iphone_ui_1.042_523e8a23/lib/iflyMSC.framework; sourceTree = "<group>"; };
+		49B38C5718059E08005F8E73 /* ContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentViewController.h; sourceTree = "<group>"; };
+		49B38C5818059E08005F8E73 /* ContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +60,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				498B3AD9180519B0003208A6 /* iflyMSC.framework in Frameworks */,
+				498B3AD51805196B003208A6 /* CoreData.framework in Frameworks */,
 				493BC9CE18045CE8005A7F34 /* UIKit.framework in Frameworks */,
 				493BC9D018045CE8005A7F34 /* Foundation.framework in Frameworks */,
 				493BC9D218045CE8005A7F34 /* CoreGraphics.framework in Frameworks */,
@@ -62,6 +74,9 @@
 		493BC9C118045CE8005A7F34 = {
 			isa = PBXGroup;
 			children = (
+				498B3AD8180519B0003208A6 /* iflyMSC.framework */,
+				498B3AD618051993003208A6 /* iflyMSC */,
+				498B3AD41805196B003208A6 /* CoreData.framework */,
 				493BC9D318045CE8005A7F34 /* Voice */,
 				493BC9CC18045CE8005A7F34 /* Frameworks */,
 				493BC9CB18045CE8005A7F34 /* Products */,
@@ -93,12 +108,15 @@
 				498B3ACF180506B9003208A6 /* SentenceViewController.m */,
 				493BC9DC18045CE8005A7F34 /* AppDelegate.h */,
 				493BC9DD18045CE8005A7F34 /* AppDelegate.m */,
+				49B38C5718059E08005F8E73 /* ContentViewController.h */,
+				49B38C5818059E08005F8E73 /* ContentViewController.m */,
 				493BC9E518045CE8005A7F34 /* MainStoryboard.storyboard */,
 				493BC9F018045D7E005A7F34 /* ViewController.h */,
 				493BC9F118045D7E005A7F34 /* ViewController.m */,
 				493BC9F318045D9C005A7F34 /* DetailViewController.h */,
 				493BC9F418045D9C005A7F34 /* DetailViewController.m */,
 				493BC9D418045CE8005A7F34 /* Supporting Files */,
+				498B3AD11805188B003208A6 /* Voice.xcdatamodeld */,
 			);
 			path = Voice;
 			sourceTree = "<group>";
@@ -188,6 +206,8 @@
 				493BC9F218045D7E005A7F34 /* ViewController.m in Sources */,
 				493BC9F518045D9C005A7F34 /* DetailViewController.m in Sources */,
 				498B3AD0180506B9003208A6 /* SentenceViewController.m in Sources */,
+				498B3AD31805188B003208A6 /* Voice.xcdatamodeld in Sources */,
+				49B38C5918059E08005F8E73 /* ContentViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,9 +292,17 @@
 		493BC9EE18045CE8005A7F34 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Downloads/iphone_ui_1.042_523e8a23/lib\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Voice/Voice-Prefix.pch";
 				INFOPLIST_FILE = "Voice/Voice-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Downloads/iphone_ui_1.042_523e8a23/lib/iflyMSC.framework\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -283,9 +311,17 @@
 		493BC9EF18045CE8005A7F34 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Downloads/iphone_ui_1.042_523e8a23/lib\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Voice/Voice-Prefix.pch";
 				INFOPLIST_FILE = "Voice/Voice-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Downloads/iphone_ui_1.042_523e8a23/lib/iflyMSC.framework\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -313,6 +349,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		498B3AD11805188B003208A6 /* Voice.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				498B3AD21805188B003208A6 /* Voice.xcdatamodel */,
+			);
+			currentVersion = 498B3AD21805188B003208A6 /* Voice.xcdatamodel */;
+			path = Voice.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 493BC9C218045CE8005A7F34 /* Project object */;
 }
