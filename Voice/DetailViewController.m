@@ -28,8 +28,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
+
+    NSString *initString = [[NSString alloc] initWithFormat:@"appid=%@",APPID ];
+    self._iFlySynthesizerView = [[IFlySynthesizerView alloc] initWithOrigin:CGPointMake(10, 60) params:initString];
+    self._iFlySynthesizerView.delegate = self;
+    // Do any additional setup after loading the view.
 }
+
 
 - (void)didReceiveMemoryWarning
 {
@@ -37,7 +42,7 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (void)onLogin:(id) sender
+- (void)onSave
 {
     AppDelegate *appDelegate =
             [[UIApplication sharedApplication] delegate];
@@ -53,9 +58,33 @@
 
     self._textView.text = @"";
 }
+
+- (void)speak
+{
+//    [_iFlySynthesizerView setParameter:@"params" value:@"bgs=1"];
+
+    [self._iFlySynthesizerView startSpeaking:self._textView.text];
+}
 - (void)finishWriting
 {
 [self._textView resignFirstResponder];
+}
+
+#pragma mark delegate
+- (void) onBufferProress:(IFlySynthesizerView *)iFlySynthesizerView progress:(int)progress
+{
+    NSLog(@"bufferProgress:%d",progress);
+}
+
+- (void) onEnd:(IFlySynthesizerView *)iFlySynthesizerView error:(IFlySpeechError *)error
+{
+    NSLog(@"onEnd:%d",error);
+
+}
+
+- (void) onPlayProress:(IFlySynthesizerView *)iFlySynthesizerView progress:(int)progress
+{
+    NSLog(@"playProgress:%d",progress);
 }
 
 @end

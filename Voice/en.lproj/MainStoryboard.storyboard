@@ -91,6 +91,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="speak" destination="hrA-HT-Hfv" eventType="touchUpInside" id="9vP-A1-nQ2"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f6Z-YC-Tfq">
                                 <constraints>
@@ -131,7 +134,8 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="onLogin:" destination="hrA-HT-Hfv" eventType="touchUpInside" id="d6h-1S-c5K"/>
+                                    <action selector="onSave" destination="hrA-HT-Hfv" eventType="touchUpInside" id="dxu-6h-1D5"/>
+                                    <action selector="onSave:" destination="hrA-HT-Hfv" eventType="touchUpInside" id="d6h-1S-c5K"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d8c-Bh-izi">
@@ -241,7 +245,9 @@
             <source key="sourceIdentifier" type="project" relativePath="./Classes/DetailViewController.h"/>
             <relationships>
                 <relationship kind="action" name="finishWriting"/>
-                <relationship kind="action" name="onLogin:"/>
+                <relationship kind="action" name="onBegin"/>
+                <relationship kind="action" name="onSave"/>
+                <relationship kind="action" name="speak"/>
                 <relationship kind="outlet" name="_textView" candidateClass="UITextView"/>
             </relationships>
         </class>

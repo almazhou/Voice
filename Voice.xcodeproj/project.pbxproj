@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		368671526D4AE9CD5B0919FE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 368673EEC843908A345AF2E4 /* QuartzCore.framework */; };
+		36867192EA7F4CC42E9671C4 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36867772B42219CEB07649DC /* CoreData.framework */; };
+		368674FD5B850C69DFD0481A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3686768FA6C1BAF3C0D471F0 /* SystemConfiguration.framework */; };
+		36867720506E0816B8EFDA33 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36867367BA81C2E04A84C4CC /* AudioToolbox.framework */; };
+		368678686ABBE7FEC84998D0 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36867A2B3AB0B0CC10C5B136 /* AdSupport.framework */; };
+		36867B4A9ED9AC7E67AFA481 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3686791DC67B490A6F93400B /* AddressBook.framework */; };
 		493BC9CE18045CE8005A7F34 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 493BC9CD18045CE8005A7F34 /* UIKit.framework */; };
 		493BC9D018045CE8005A7F34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 493BC9CF18045CE8005A7F34 /* Foundation.framework */; };
 		493BC9D218045CE8005A7F34 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 493BC9D118045CE8005A7F34 /* CoreGraphics.framework */; };
@@ -21,12 +27,17 @@
 		493BC9F518045D9C005A7F34 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 493BC9F418045D9C005A7F34 /* DetailViewController.m */; };
 		498B3AD0180506B9003208A6 /* SentenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 498B3ACF180506B9003208A6 /* SentenceViewController.m */; };
 		498B3AD31805188B003208A6 /* Voice.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 498B3AD11805188B003208A6 /* Voice.xcdatamodeld */; };
-		498B3AD51805196B003208A6 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 498B3AD41805196B003208A6 /* CoreData.framework */; };
-		498B3AD9180519B0003208A6 /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 498B3AD8180519B0003208A6 /* iflyMSC.framework */; };
 		49B38C5918059E08005F8E73 /* ContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B38C5818059E08005F8E73 /* ContentViewController.m */; };
+		49B38C671805AFA6005F8E73 /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49B38C661805AFA6005F8E73 /* iflyMSC.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		36867367BA81C2E04A84C4CC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = ../../../../Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = "<group>"; };
+		368673EEC843908A345AF2E4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = ../../../../Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = "<group>"; };
+		3686768FA6C1BAF3C0D471F0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = ../../../../Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = "<group>"; };
+		36867772B42219CEB07649DC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = ../../../../Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = "<group>"; };
+		3686791DC67B490A6F93400B /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = ../../../../Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/AddressBook.framework; sourceTree = "<group>"; };
+		36867A2B3AB0B0CC10C5B136 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = ../../../../Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/AdSupport.framework; sourceTree = "<group>"; };
 		493BC9CA18045CE8005A7F34 /* Voice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Voice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		493BC9CD18045CE8005A7F34 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		493BC9CF18045CE8005A7F34 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -48,11 +59,9 @@
 		498B3ACE180506B9003208A6 /* SentenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SentenceViewController.h; sourceTree = "<group>"; };
 		498B3ACF180506B9003208A6 /* SentenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SentenceViewController.m; sourceTree = "<group>"; };
 		498B3AD21805188B003208A6 /* Voice.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Voice.xcdatamodel; sourceTree = "<group>"; };
-		498B3AD41805196B003208A6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		498B3AD618051993003208A6 /* iflyMSC */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = iflyMSC; path = ../../Downloads/iphone_ui_1.042_523e8a23/lib/iflyMSC.framework/iflyMSC; sourceTree = "<group>"; };
-		498B3AD8180519B0003208A6 /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iflyMSC.framework; path = ../../Downloads/iphone_ui_1.042_523e8a23/lib/iflyMSC.framework; sourceTree = "<group>"; };
 		49B38C5718059E08005F8E73 /* ContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentViewController.h; sourceTree = "<group>"; };
 		49B38C5818059E08005F8E73 /* ContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentViewController.m; sourceTree = "<group>"; };
+		49B38C661805AFA6005F8E73 /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iflyMSC.framework; path = "../../Downloads/iphone_ui_1.042_523e8a23 2/lib/iflyMSC.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +69,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				498B3AD9180519B0003208A6 /* iflyMSC.framework in Frameworks */,
-				498B3AD51805196B003208A6 /* CoreData.framework in Frameworks */,
+				49B38C671805AFA6005F8E73 /* iflyMSC.framework in Frameworks */,
 				493BC9CE18045CE8005A7F34 /* UIKit.framework in Frameworks */,
 				493BC9D018045CE8005A7F34 /* Foundation.framework in Frameworks */,
 				493BC9D218045CE8005A7F34 /* CoreGraphics.framework in Frameworks */,
+				36867192EA7F4CC42E9671C4 /* CoreData.framework in Frameworks */,
+				36867B4A9ED9AC7E67AFA481 /* AddressBook.framework in Frameworks */,
+				36867720506E0816B8EFDA33 /* AudioToolbox.framework in Frameworks */,
+				368671526D4AE9CD5B0919FE /* QuartzCore.framework in Frameworks */,
+				368674FD5B850C69DFD0481A /* SystemConfiguration.framework in Frameworks */,
+				368678686ABBE7FEC84998D0 /* AdSupport.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,9 +88,7 @@
 		493BC9C118045CE8005A7F34 = {
 			isa = PBXGroup;
 			children = (
-				498B3AD8180519B0003208A6 /* iflyMSC.framework */,
-				498B3AD618051993003208A6 /* iflyMSC */,
-				498B3AD41805196B003208A6 /* CoreData.framework */,
+				49B38C661805AFA6005F8E73 /* iflyMSC.framework */,
 				493BC9D318045CE8005A7F34 /* Voice */,
 				493BC9CC18045CE8005A7F34 /* Frameworks */,
 				493BC9CB18045CE8005A7F34 /* Products */,
@@ -97,6 +109,12 @@
 				493BC9CD18045CE8005A7F34 /* UIKit.framework */,
 				493BC9CF18045CE8005A7F34 /* Foundation.framework */,
 				493BC9D118045CE8005A7F34 /* CoreGraphics.framework */,
+				36867772B42219CEB07649DC /* CoreData.framework */,
+				3686791DC67B490A6F93400B /* AddressBook.framework */,
+				36867367BA81C2E04A84C4CC /* AudioToolbox.framework */,
+				368673EEC843908A345AF2E4 /* QuartzCore.framework */,
+				3686768FA6C1BAF3C0D471F0 /* SystemConfiguration.framework */,
+				36867A2B3AB0B0CC10C5B136 /* AdSupport.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -295,6 +313,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../Downloads/iphone_ui_1.042_523e8a23/lib\"",
+					"\"$(SRCROOT)/../../Downloads/iphone_ui_1.042_523e8a23 2/lib\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Voice/Voice-Prefix.pch";
@@ -314,6 +333,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../Downloads/iphone_ui_1.042_523e8a23/lib\"",
+					"\"$(SRCROOT)/../../Downloads/iphone_ui_1.042_523e8a23 2/lib\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Voice/Voice-Prefix.pch";

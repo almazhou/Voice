@@ -7,10 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface DetailViewController : UIViewController<UITextViewDelegate>
+#import "iflyMSC/IFlySynthesizerViewDelegate.h"
+#import "iflyMSC/IFlySynthesizerView.h"
+#define APPID       @"523e8a23"
+@interface DetailViewController : UIViewController<IFlySynthesizerViewDelegate, UITextViewDelegate>
 
 @property(nonatomic, strong) IBOutlet UITextView *_textView;
--(IBAction)onLogin:(id) sender;
+@property IFlySynthesizerView *_iFlySynthesizerView;
+
+-(IBAction)onSave;
 - (IBAction)finishWriting;
+- (IBAction)speak;
 @end
