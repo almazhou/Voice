@@ -2,17 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e414703-84f4-4def-90a9-b67766dcc2f0" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voice/flower.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voice/kermitStars/kermit_empty.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voice/kermitStars/kermit_full.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voice/kermitStars/kermit_half.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RateView.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RateView.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RateViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RateViewController.m" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Voice.xcodeproj/project.xcworkspace/xcuserdata/twer.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/Voice.xcodeproj/project.xcworkspace/xcuserdata/twer.xcuserdatad/UserInterfaceState.xcuserstate" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Voice/AppDelegate.m" afterPath="$PROJECT_DIR$/Voice/AppDelegate.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Voice/DetailViewController.h" afterPath="$PROJECT_DIR$/Voice/DetailViewController.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Voice.xcodeproj/xcuserdata/twer.xcuserdatad/xcdebugger/Breakpoints.xcbkptlist" afterPath="$PROJECT_DIR$/Voice.xcodeproj/xcuserdata/twer.xcuserdatad/xcdebugger/Breakpoints.xcbkptlist" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Voice/DetailViewController.m" afterPath="$PROJECT_DIR$/Voice/DetailViewController.m" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Voice/en.lproj/MainStoryboard.storyboard" afterPath="$PROJECT_DIR$/Voice/en.lproj/MainStoryboard.storyboard" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Voice/ViewController.m" afterPath="$PROJECT_DIR$/Voice/ViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Voice/Voice.xcdatamodeld/Voice.xcdatamodel/contents" afterPath="$PROJECT_DIR$/Voice/Voice.xcdatamodeld/Voice.xcdatamodel/contents" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Voice.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/Voice.xcodeproj/project.pbxproj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Voice.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="9e414703-84f4-4def-90a9-b67766dcc2f0" time="1381325869479" ignored="false" />
-    <file path="/ViewController.m" changelist="9e414703-84f4-4def-90a9-b67766dcc2f0" time="1381308236051" ignored="false" />
+    <file path="/Dummy.txt" changelist="9e414703-84f4-4def-90a9-b67766dcc2f0" time="1381795566027" ignored="false" />
+    <file path="/ViewController.m" changelist="9e414703-84f4-4def-90a9-b67766dcc2f0" time="1381421220735" ignored="false" />
     <file path="/ViewController.h" changelist="9e414703-84f4-4def-90a9-b67766dcc2f0" time="1381289262545" ignored="false" />
     <file path="/SentenceViewController.h" changelist="9e414703-84f4-4def-90a9-b67766dcc2f0" time="1381290492649" ignored="false" />
     <file path="/SentenceViewController.m" changelist="9e414703-84f4-4def-90a9-b67766dcc2f0" time="1381328990529" ignored="false" />
@@ -27,6 +37,9 @@
     <file path="$USER_HOME$/Downloads/iphone_ui_1.042_523e8a23/sample/mscDemo/MSC/ISRTextViews.m" changelist="9e414703-84f4-4def-90a9-b67766dcc2f0" time="1381334945619" ignored="false" />
     <file path="$USER_HOME$/Downloads/iphone_ui_1.042_523e8a23/sample/mscDemo/MSC/ISRTextViews.h" changelist="9e414703-84f4-4def-90a9-b67766dcc2f0" time="1381335012265" ignored="false" />
     <file path="/ISRTextViews.h" changelist="9e414703-84f4-4def-90a9-b67766dcc2f0" time="1381335008701" ignored="false" />
+    <file path="/RateView.m" changelist="9e414703-84f4-4def-90a9-b67766dcc2f0" time="1381420032218" ignored="false" />
+    <file path="/RateViewController.h" changelist="9e414703-84f4-4def-90a9-b67766dcc2f0" time="1381420572456" ignored="false" />
+    <file path="/RateViewController.m" changelist="9e414703-84f4-4def-90a9-b67766dcc2f0" time="1381763825028" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,16 +62,7 @@
       <file leaf-file-name="ViewController.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Voice/ViewController.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="139" column="72" selection-start="4041" selection-end="4257" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ContentViewController.h" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Voice/ContentViewController.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="326" selection-end="326" vertical-scroll-proportion="0.0">
+            <state line="53" column="1" selection-start="1121" selection-end="1121" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -68,21 +72,7 @@
         <entry file="file://$PROJECT_DIR$/Voice/ContentViewController.m">
           <provider selected="true" editor-type-id="text-editor">
             <state line="9" column="0" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1381330086000" expanded="true" signature="247:754" placeholder="..." />
-                <marker date="1381330086000" expanded="true" signature="498:623" placeholder="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SentenceViewController.m" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Voice/SentenceViewController.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="134" column="1" selection-start="4383" selection-end="4383" vertical-scroll-proportion="-9.454545">
-              <folding>
-                <element signature="e#133#162#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -90,7 +80,7 @@
       <file leaf-file-name="AppDelegate.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Voice/AppDelegate.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="5" selection-start="2686" selection-end="2686" vertical-scroll-proportion="0.0">
+            <state line="131" column="38" selection-start="6072" selection-end="6099" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -105,22 +95,47 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainStoryboard.storyboard" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Voice/en.lproj/MainStoryboard.storyboard">
+      <file leaf-file-name="RateViewController.m" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/RateViewController.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="142" column="45" selection-start="11869" selection-end="11869" vertical-scroll-proportion="-5.9166665">
+            <state line="82" column="41" selection-start="2817" selection-end="2817" vertical-scroll-proportion="0.79041916">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DetailViewController.m" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="RateViewController.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RateViewController.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="22" selection-start="329" selection-end="329" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RateView.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RateView.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="81" column="5" selection-start="2188" selection-end="2188" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RateView.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RateView.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="16" selection-start="280" selection-end="280" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DetailViewController.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Voice/DetailViewController.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="22" selection-start="1218" selection-end="1218" vertical-scroll-proportion="1.779661">
-              <folding>
-                <element signature="e#131#160#0" expanded="true" />
-              </folding>
+            <state line="62" column="55" selection-start="1701" selection-end="1710" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -128,18 +143,7 @@
       <file leaf-file-name="DetailViewController.h" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Voice/DetailViewController.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="682" selection-end="700" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#131#154#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ViewController.h" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Voice/ViewController.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="20" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0">
+            <state line="22" column="18" selection-start="677" selection-end="677" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -163,11 +167,9 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Voice/ViewController.h" />
         <option value="$PROJECT_DIR$/Voice/SentenceViewController.h" />
         <option value="$PROJECT_DIR$/Voice/AppDelegate.m" />
         <option value="$PROJECT_DIR$/Voice/AppDelegate.h" />
-        <option value="$PROJECT_DIR$/Voice/ViewController.m" />
         <option value="$PROJECT_DIR$/Voice/ContentViewViewController.m" />
         <option value="$PROJECT_DIR$/Voice/ContentViewViewController.h" />
         <option value="$PROJECT_DIR$/Voice/SentenceViewController.m" />
@@ -176,13 +178,17 @@
         <option value="$PROJECT_DIR$/Voice/en.lproj/MainStoryboard.storyboard" />
         <option value="$PROJECT_DIR$/Voice/DetailViewController.h" />
         <option value="$PROJECT_DIR$/Voice/DetailViewController.m" />
+        <option value="$PROJECT_DIR$/RateView.h" />
+        <option value="$PROJECT_DIR$/RateViewController.h" />
+        <option value="$PROJECT_DIR$/Voice/ViewController.m" />
+        <option value="$PROJECT_DIR$/RateView.m" />
+        <option value="$PROJECT_DIR$/RateViewController.m" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="10" />
     <option name="y" value="22" />
-    <option name="width" value="1420" />
+    <option name="width" value="1440" />
     <option name="height" value="790" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -211,7 +217,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="DirectoryView.Xcode" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -268,6 +273,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="DirectoryView.Xcode" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -300,15 +306,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="22" width="1420" height="790" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="22" width="1440" height="790" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275862" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32902297" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24982105" sideWeight="0.670977" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24629499" sideWeight="0.67108434" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -317,6 +321,8 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275862" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -385,88 +391,24 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Voice/SentenceViewController.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="23" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Voice/SentenceViewController.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="0" selection-start="1607" selection-end="1607" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#133#162#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Voice/ViewController.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="20" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Voice/ViewController.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="20" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="11" column="20" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Voice/AppDelegate.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="1" selection-start="470" selection-end="470" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Voice/SentenceViewController.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="134" column="1" selection-start="4383" selection-end="4383" vertical-scroll-proportion="-9.454545">
-          <folding>
-            <element signature="e#133#162#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Voice/ViewController.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="139" column="72" selection-start="4041" selection-end="4257" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Voice/ContentViewController.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1381330086000" expanded="true" signature="247:754" placeholder="..." />
-            <marker date="1381330086000" expanded="true" signature="498:623" placeholder="{...}" />
-          </folding>
-        </state>
+        <state line="18" column="1" selection-start="470" selection-end="470" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Voice/ContentViewController.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="326" selection-end="326" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Voice/SentenceViewController.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="23" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="14" column="0" selection-start="326" selection-end="326" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Voice/en.lproj/MainStoryboard.storyboard">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="142" column="45" selection-start="11869" selection-end="11869" vertical-scroll-proportion="-5.9166665">
-          <folding />
-        </state>
+        <state line="171" column="45" selection-start="15461" selection-end="15461" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Downloads/iphone_ui_1.042_523e8a23 2/lib/iflyMSC.framework/Headers/IFlySynthesizerView.h">
@@ -476,28 +418,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Voice/AppDelegate.m">
+    <entry file="file://$PROJECT_DIR$/Voice/DetailViewController.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="5" selection-start="2686" selection-end="2686" vertical-scroll-proportion="0.0">
+        <state line="22" column="18" selection-start="677" selection-end="677" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Voice/DetailViewController.h">
+    <entry file="file://$PROJECT_DIR$/Voice/SentenceViewController.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="682" selection-end="700" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#131#154#0" expanded="true" />
-          </folding>
+        <state line="10" column="27" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Voice/ContentViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Voice/SentenceViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="60" selection-start="1359" selection-end="1359" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Voice/AppDelegate.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="131" column="38" selection-start="6072" selection-end="6099" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Voice/DetailViewController.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="22" selection-start="1218" selection-end="1218" vertical-scroll-proportion="1.779661">
-          <folding>
-            <element signature="e#131#160#0" expanded="true" />
-          </folding>
+        <state line="62" column="55" selection-start="1701" selection-end="1710" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RateView.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="16" selection-start="280" selection-end="280" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RateViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="22" selection-start="329" selection-end="329" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Voice/ViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="1" selection-start="1121" selection-end="1121" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RateView.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="81" column="5" selection-start="2188" selection-end="2188" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RateViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="82" column="41" selection-start="2817" selection-end="2817" vertical-scroll-proportion="0.79041916">
+          <folding />
         </state>
       </provider>
     </entry>

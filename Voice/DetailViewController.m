@@ -65,6 +65,9 @@
     [newContact setValue:self._textView.text forKey:@"name"];
     [newContact setValue:self._textView.text forKey:@"content"];
 
+    NSError *error;
+    [context save:&error];
+
 }
 - (IBAction)clear{
     UIAlertView *alert = [[UIAlertView alloc]

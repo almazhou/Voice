@@ -9,6 +9,7 @@
 #import <CoreData/CoreData.h>
 #import "ViewController.h"
 #import "AppDelegate.h"
+#import "RateViewController.h"
 
 
 @interface ViewController ()
@@ -49,7 +50,7 @@
 {
 
     // Return the number of sections.
-    return 2;
+    return 3;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
@@ -67,10 +68,13 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
     }
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+    cell.imageView.image = [UIImage imageNamed:@"flower.png"];
     if(indexPath.section ==0){
     cell.textLabel.text = @"常用语句";
     }else if(indexPath.section ==1){
     cell.textLabel.text = @"聊天";
+    } else if(indexPath.section ==2){
+    cell.textLabel.text = @"评定";
     }
     
     return cell;
@@ -120,10 +124,13 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     UITableViewCell *cell = [self tableView:tableView cellForRowAtIndexPath:indexPath];
+    
     if (indexPath.section==0) {
         [self performSegueWithIdentifier:@"sentenceViewControllerSegue" sender:self];
     }else if(indexPath.section == 1){
         [self performSegueWithIdentifier:@"detailViewControllerSegue" sender:self];
+    }else if(indexPath.section == 2){
+        [self performSegueWithIdentifier:@"rateViewControllerSegue" sender:self];
     }
     
     // Navigation logic may go here. Create and push another view controller.
@@ -162,6 +169,9 @@
         }
 
         dest1._items =muArray;
+    }else if([[segue identifier] isEqualToString:@"rateViewControllerSegue"]){
+        RateViewController *rateViewController = [segue destinationViewController];
+
     }
 }
 

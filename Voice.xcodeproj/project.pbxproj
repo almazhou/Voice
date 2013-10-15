@@ -13,6 +13,11 @@
 		36867720506E0816B8EFDA33 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36867367BA81C2E04A84C4CC /* AudioToolbox.framework */; };
 		368678686ABBE7FEC84998D0 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36867A2B3AB0B0CC10C5B136 /* AdSupport.framework */; };
 		36867B4A9ED9AC7E67AFA481 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3686791DC67B490A6F93400B /* AddressBook.framework */; };
+		4920ECD51806FFEE00DB0C8B /* RateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4920ECD41806FFEE00DB0C8B /* RateView.m */; };
+		4920ECD81807001E00DB0C8B /* RateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4920ECD71807001E00DB0C8B /* RateViewController.m */; };
+		4920ECDD1807069A00DB0C8B /* kermit_empty.png in Resources */ = {isa = PBXBuildFile; fileRef = 4920ECDA1807069A00DB0C8B /* kermit_empty.png */; };
+		4920ECDE1807069A00DB0C8B /* kermit_full.png in Resources */ = {isa = PBXBuildFile; fileRef = 4920ECDB1807069A00DB0C8B /* kermit_full.png */; };
+		4920ECDF1807069A00DB0C8B /* kermit_half.png in Resources */ = {isa = PBXBuildFile; fileRef = 4920ECDC1807069A00DB0C8B /* kermit_half.png */; };
 		493BC9CE18045CE8005A7F34 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 493BC9CD18045CE8005A7F34 /* UIKit.framework */; };
 		493BC9D018045CE8005A7F34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 493BC9CF18045CE8005A7F34 /* Foundation.framework */; };
 		493BC9D218045CE8005A7F34 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 493BC9D118045CE8005A7F34 /* CoreGraphics.framework */; };
@@ -25,6 +30,7 @@
 		493BC9E718045CE8005A7F34 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 493BC9E518045CE8005A7F34 /* MainStoryboard.storyboard */; };
 		493BC9F218045D7E005A7F34 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 493BC9F118045D7E005A7F34 /* ViewController.m */; };
 		493BC9F518045D9C005A7F34 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 493BC9F418045D9C005A7F34 /* DetailViewController.m */; };
+		495EA19F180C312D003F0708 /* flower.png in Resources */ = {isa = PBXBuildFile; fileRef = 495EA19E180C312D003F0708 /* flower.png */; };
 		498B3AD0180506B9003208A6 /* SentenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 498B3ACF180506B9003208A6 /* SentenceViewController.m */; };
 		498B3AD31805188B003208A6 /* Voice.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 498B3AD11805188B003208A6 /* Voice.xcdatamodeld */; };
 		49B38C5918059E08005F8E73 /* ContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B38C5818059E08005F8E73 /* ContentViewController.m */; };
@@ -38,6 +44,13 @@
 		36867772B42219CEB07649DC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = ../../../../Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = "<group>"; };
 		3686791DC67B490A6F93400B /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = ../../../../Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/AddressBook.framework; sourceTree = "<group>"; };
 		36867A2B3AB0B0CC10C5B136 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = ../../../../Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/AdSupport.framework; sourceTree = "<group>"; };
+		4920ECD31806FFEE00DB0C8B /* RateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RateView.h; path = ../RateView.h; sourceTree = "<group>"; };
+		4920ECD41806FFEE00DB0C8B /* RateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RateView.m; path = ../RateView.m; sourceTree = "<group>"; };
+		4920ECD61807001E00DB0C8B /* RateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RateViewController.h; path = ../RateViewController.h; sourceTree = "<group>"; };
+		4920ECD71807001E00DB0C8B /* RateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RateViewController.m; path = ../RateViewController.m; sourceTree = "<group>"; };
+		4920ECDA1807069A00DB0C8B /* kermit_empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kermit_empty.png; sourceTree = "<group>"; };
+		4920ECDB1807069A00DB0C8B /* kermit_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kermit_full.png; sourceTree = "<group>"; };
+		4920ECDC1807069A00DB0C8B /* kermit_half.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kermit_half.png; sourceTree = "<group>"; };
 		493BC9CA18045CE8005A7F34 /* Voice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Voice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		493BC9CD18045CE8005A7F34 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		493BC9CF18045CE8005A7F34 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -56,6 +69,7 @@
 		493BC9F118045D7E005A7F34 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		493BC9F318045D9C005A7F34 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		493BC9F418045D9C005A7F34 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		495EA19E180C312D003F0708 /* flower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flower.png; sourceTree = "<group>"; };
 		498B3ACE180506B9003208A6 /* SentenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SentenceViewController.h; sourceTree = "<group>"; };
 		498B3ACF180506B9003208A6 /* SentenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SentenceViewController.m; sourceTree = "<group>"; };
 		498B3AD21805188B003208A6 /* Voice.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Voice.xcdatamodel; sourceTree = "<group>"; };
@@ -85,6 +99,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4920ECD91807069A00DB0C8B /* kermitStars */ = {
+			isa = PBXGroup;
+			children = (
+				4920ECDA1807069A00DB0C8B /* kermit_empty.png */,
+				4920ECDB1807069A00DB0C8B /* kermit_full.png */,
+				4920ECDC1807069A00DB0C8B /* kermit_half.png */,
+			);
+			path = kermitStars;
+			sourceTree = "<group>";
+		};
 		493BC9C118045CE8005A7F34 = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +146,10 @@
 		493BC9D318045CE8005A7F34 /* Voice */ = {
 			isa = PBXGroup;
 			children = (
+				4920ECD61807001E00DB0C8B /* RateViewController.h */,
+				4920ECD71807001E00DB0C8B /* RateViewController.m */,
+				4920ECD31806FFEE00DB0C8B /* RateView.h */,
+				4920ECD41806FFEE00DB0C8B /* RateView.m */,
 				498B3ACE180506B9003208A6 /* SentenceViewController.h */,
 				498B3ACF180506B9003208A6 /* SentenceViewController.m */,
 				493BC9DC18045CE8005A7F34 /* AppDelegate.h */,
@@ -142,6 +170,8 @@
 		493BC9D418045CE8005A7F34 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				495EA19E180C312D003F0708 /* flower.png */,
+				4920ECD91807069A00DB0C8B /* kermitStars */,
 				493BC9D518045CE8005A7F34 /* Voice-Info.plist */,
 				493BC9D618045CE8005A7F34 /* InfoPlist.strings */,
 				493BC9D918045CE8005A7F34 /* main.m */,
@@ -209,6 +239,10 @@
 				493BC9E218045CE8005A7F34 /* Default@2x.png in Resources */,
 				493BC9E418045CE8005A7F34 /* Default-568h@2x.png in Resources */,
 				493BC9E718045CE8005A7F34 /* MainStoryboard.storyboard in Resources */,
+				4920ECDD1807069A00DB0C8B /* kermit_empty.png in Resources */,
+				4920ECDE1807069A00DB0C8B /* kermit_full.png in Resources */,
+				4920ECDF1807069A00DB0C8B /* kermit_half.png in Resources */,
+				495EA19F180C312D003F0708 /* flower.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,6 +260,8 @@
 				498B3AD0180506B9003208A6 /* SentenceViewController.m in Sources */,
 				498B3AD31805188B003208A6 /* Voice.xcdatamodeld in Sources */,
 				49B38C5918059E08005F8E73 /* ContentViewController.m in Sources */,
+				4920ECD51806FFEE00DB0C8B /* RateView.m in Sources */,
+				4920ECD81807001E00DB0C8B /* RateViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
